@@ -3,15 +3,12 @@ package com.example.learnjpa.domain;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
-import static org.junit.jupiter.api.Assertions.*;
-//@SpringBootTest
 class MemberTest {
 
   static EntityManagerFactory factory;
